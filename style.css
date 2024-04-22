@@ -1,0 +1,70 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('img/poker_board.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    height: 80vh;
+}
+.button{
+    font-weight: bolder;
+    border: 3px solid black;
+    color: white;
+    width: 100px;
+}
+.button:hover{
+    cursor: pointer;
+    border-color: white;
+}
+#deal{
+    background-color: blue;
+}
+#reveal{
+    background-color: rgb(202, 26, 26);
+}
+p{
+    font-size: large;
+    color: white;
+    font-weight: 700;
+}
+.player_fishes>img{
+    width: 40%;
+}
+.all-in-button{
+    background-color:  rgb(202, 26, 26);
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    font-weight: bolder;
+    border: 3px solid black;
+    color: white;
+}
+.all-in-button:hover{
+    cursor: pointer;
+    border-color: white;
+}
+.player-hand{
+    font-size: larger;
+    padding: 20px;
+    border: 3px solid green;
+    width: 538px;
+    height: 403px;
+    border-radius: 24px;
+    bottom: 1px;
+    right: 1px;
+}
+.back-card>img{
+    margin: 0 10px;
+    width: 226px;
+    height: 314px;
+}
+#cards-back > img{
+    width: 88px;
+    height: 124px;
+}
